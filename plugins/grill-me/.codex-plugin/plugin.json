@@ -1,0 +1,16 @@
+{
+  "name": "grill-me",
+  "version": "1.0.0",
+  "description": "A relentless interview to sharpen a plan or design.",
+  "author": {
+    "name": "mattpocock"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "grill-me",
+    "shortDescription": "A relentless interview to sharpen a plan or design.",
+    "developerName": "mattpocock",
+    "category": "Productivity"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "anthropic-doc-skills",
+  "author": {
+    "name": "Anthropic (via anthropics/skills repo)"
+  },
+  "skills": "./skills/",
+  "license": "Proprietary",
+  "version": "1.0.0",
+  "interface": {
+    "category": "Productivity",
+    "displayName": "Anthropic Document Skills",
+    "developerName": "Anthropic (via anthropics/skills repo)",
+    "shortDescription": "Official Anthropic skills: docx (Word), pptx (PowerPoint), pdf - create, read, edit real files with templates and formatting."
+  },
+  "description": "Official Anthropic skills: docx (Word), pptx (PowerPoint), pdf - create, read, edit real files with templates and formatting."
+}

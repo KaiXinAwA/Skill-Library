@@ -1,0 +1,296 @@
+{
+  "name": "richard-skill-library",
+  "interface": {
+    "displayName": "Richard's Skill Library"
+  },
+  "plugins": [
+    {
+      "name": "anti-defensive-writing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/anti-defensive-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "anti-defensive-writing-en",
+      "source": {
+        "source": "local",
+        "path": "./plugins/anti-defensive-writing-en"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "lieflat-less-ai-tone",
+      "source": {
+        "source": "local",
+        "path": "./plugins/lieflat-less-ai-tone"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "paper-skill",
+      "source": {
+        "source": "local",
+        "path": "./plugins/paper-skill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "research-writing-skill",
+      "source": {
+        "source": "local",
+        "path": "./plugins/research-writing-skill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "paper-analyzer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/paper-analyzer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "paper-deck",
+      "source": {
+        "source": "local",
+        "path": "./plugins/paper-deck"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "paper-redteam",
+      "source": {
+        "source": "local",
+        "path": "./plugins/paper-redteam"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "oral-paper-skill",
+      "source": {
+        "source": "local",
+        "path": "./plugins/oral-paper-skill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grill-me",
+      "source": {
+        "source": "local",
+        "path": "./plugins/grill-me"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grilling",
+      "source": {
+        "source": "local",
+        "path": "./plugins/grilling"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "tdd",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tdd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "frontend-design",
+      "source": {
+        "source": "local",
+        "path": "./plugins/frontend-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "local-ai-manager",
+      "source": {
+        "source": "local",
+        "path": "./plugins/local-ai-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "prompt-engineer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/prompt-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "senior-prompt-engineer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/senior-prompt-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "agent-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-skills"
+      },
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mattpocock-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mattpocock-skills"
+      },
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "superpowers-core",
+      "source": {
+        "source": "local",
+        "path": "./plugins/superpowers-core"
+      },
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gstack-review",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gstack-review"
+      },
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "anthropic-doc-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/anthropic-doc-skills"
+      },
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "anthropic-webapp-testing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/anthropic-webapp-testing"
+      },
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "daily-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/daily-research"
+      },
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "paperspine5",
+      "source": {
+        "path": "./plugins/paperspine5",
+        "source": "local"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

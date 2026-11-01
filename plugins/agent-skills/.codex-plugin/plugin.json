@@ -1,0 +1,16 @@
+{
+  "interface": {
+    "developerName": "addyosmani (via agent-skills repo)",
+    "category": "Developer Tools",
+    "displayName": "Agent Skills (Addy Osmani)",
+    "shortDescription": "Production engineering workflow: DEFINE→PLAN→BUILD→VERIFY→REVIEW→SHIP. 25 skills covering spec-driven development, TDD, code review, debugging, security, performance, CI/CD and shipping."
+  },
+  "author": {
+    "name": "addyosmani (via agent-skills repo)"
+  },
+  "skills": "./skills/",
+  "version": "1.0.0",
+  "name": "agent-skills",
+  "license": "MIT",
+  "description": "Production engineering workflow: DEFINE→PLAN→BUILD→VERIFY→REVIEW→SHIP. 25 skills covering spec-driven development, TDD, code review, debugging, security, performance, CI/CD and shipping."
+}

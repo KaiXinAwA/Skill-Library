@@ -1,0 +1,16 @@
+{
+  "name": "grilling",
+  "version": "1.0.0",
+  "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+  "author": {
+    "name": "mattpocock"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "grilling",
+    "shortDescription": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+    "developerName": "mattpocock",
+    "category": "Productivity"
+  }
+}

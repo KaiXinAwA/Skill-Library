@@ -1,0 +1,16 @@
+{
+  "name": "local-ai-manager",
+  "version": "1.0.0",
+  "description": "Manage this machine's local LLM stack (Ollama, Open WebUI, Docker, RTX 5060 Laptop 8GB VRAM, external D-drive SSD). Use when asked about local models, Ollama commands, VRAM limits, adding/removing models, connecting other AI tools to the local model, Open WebUI troubleshooting, or deciding whether a task should go to the local qwen model vs cloud GPT.",
+  "author": {
+    "name": "Richard"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "local-ai-manager",
+    "shortDescription": "Local LLM stack manager (Ollama / Open WebUI / 8GB VRAM)",
+    "developerName": "Richard",
+    "category": "Developer Tools"
+  }
+}

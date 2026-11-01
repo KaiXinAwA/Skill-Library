@@ -1,0 +1,12 @@
+# 系统
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Git
+*.orig
+*.rej
+
+# 临时
+*.tmp
+*.log

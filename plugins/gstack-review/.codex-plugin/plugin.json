@@ -1,0 +1,16 @@
+{
+  "name": "gstack-review",
+  "author": {
+    "name": "garrytan (via gstack repo)"
+  },
+  "skills": "./skills/",
+  "license": "MIT",
+  "version": "1.0.0",
+  "interface": {
+    "category": "Developer Tools",
+    "displayName": "GStack Review",
+    "developerName": "garrytan (via gstack repo)",
+    "shortDescription": "Pre-landing PR review from Garry Tan's gstack: checklists for correctness, design, gate integrity, TODOs, with specialist review modes."
+  },
+  "description": "Pre-landing PR review from Garry Tan's gstack: checklists for correctness, design, gate integrity, TODOs, with specialist review modes."
+}

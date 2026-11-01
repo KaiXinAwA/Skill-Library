@@ -1,0 +1,16 @@
+{
+  "name": "paper-deck",
+  "version": "1.0.0",
+  "description": "将论文、技术文章或知识内容制作成高真实感的 AIGC 幻灯片。先做叙事结构和逐页视觉导演，再调用生图模型生成每一页 16:9 slide image，最后合成为 PPTX/PDF。适合论文汇报、组会、公开课、技术分享、商业化研究展示；当用户提到\"论文PPT\"\"AI生成PPT\"\"不像AI的PPT\"\"高质感幻灯片\"\"逐页生图PPT\"时使用。",
+  "author": {
+    "name": "zsyggg"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "paper-deck",
+    "shortDescription": "将论文、技术文章或知识内容制作成高真实感的 AIGC 幻灯片。先做叙事结构和逐页视觉导演，再调用生图模型生成每一页 16:9 slide image，最后合成为 PPTX/PDF。适合论文汇报、组会、公开课、技术分享、商业化研究展示；当用户提到\"论文PPT\"\"AI生成PPT\"\"不像AI的PPT\"\"高质感幻灯片\"\"逐页生图PPT\"时使用。",
+    "developerName": "zsyggg",
+    "category": "Productivity"
+  }
+}

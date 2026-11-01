@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "description": "Core skills from Superpowers: systematic-debugging (4-stage root-cause), brainstorming (requirement discovery), writing-plans (step-by-step planning).",
+  "license": "MIT",
+  "interface": {
+    "displayName": "Superpowers Core (Jesse Vincent)",
+    "developerName": "obra (via superpowers repo)",
+    "category": "Developer Tools",
+    "shortDescription": "Core skills from Superpowers: systematic-debugging (4-stage root-cause), brainstorming (requirement discovery), writing-plans (step-by-step planning)."
+  },
+  "skills": "./skills/",
+  "name": "superpowers-core",
+  "author": {
+    "name": "obra (via superpowers repo)"
+  }
+}

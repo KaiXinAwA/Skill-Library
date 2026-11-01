@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "interface": {
+    "developerName": "WUBING2023 (via PaperSpine repo)",
+    "category": "Productivity",
+    "shortDescription": "End-to-end paper production: research, write, figures, citations, deliver Word/LaTeX/PDF",
+    "displayName": "PaperSpine5"
+  },
+  "license": "MIT",
+  "name": "paperspine5",
+  "description": "PaperSpine5: research, write, review and deliver evidence-bound papers end-to-end - literature search, argument mapping, full-text writing, scientific figures, citation verification, LaTeX-safe humanization, and editable Word/LaTeX/PDF delivery.",
+  "author": {
+    "name": "WUBING2023 (via PaperSpine repo)"
+  },
+  "skills": "./skills/"
+}

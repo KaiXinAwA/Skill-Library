@@ -1,0 +1,16 @@
+{
+  "name": "frontend-design",
+  "version": "1.0.0",
+  "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+  "author": {
+    "name": "anthropics"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "frontend-design",
+    "shortDescription": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+    "developerName": "anthropics",
+    "category": "Productivity"
+  }
+}

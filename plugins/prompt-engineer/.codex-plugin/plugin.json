@@ -1,0 +1,16 @@
+{
+  "name": "prompt-engineer",
+  "version": "1.0.0",
+  "description": "Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW)",
+  "author": {
+    "name": "sickn33 (via awesome-omni-skill)"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "developerName": "sickn33 (via awesome-omni-skill)",
+    "shortDescription": "Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW)",
+    "displayName": "prompt-engineer",
+    "category": "Productivity"
+  }
+}

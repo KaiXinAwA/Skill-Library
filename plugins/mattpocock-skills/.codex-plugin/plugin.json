@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "description": "Composable engineering skills by Matt Pocock: diagnosing-bugs (structured root-cause debugging), code-review, to-spec (turn ideas into specs), research.",
+  "license": "MIT",
+  "interface": {
+    "displayName": "Matt Pocock Skills (补集)",
+    "developerName": "mattpocock (via mattpocock/skills repo)",
+    "category": "Developer Tools",
+    "shortDescription": "Composable engineering skills by Matt Pocock: diagnosing-bugs (structured root-cause debugging), code-review, to-spec (turn ideas into specs), research."
+  },
+  "skills": "./skills/",
+  "name": "mattpocock-skills",
+  "author": {
+    "name": "mattpocock (via mattpocock/skills repo)"
+  }
+}

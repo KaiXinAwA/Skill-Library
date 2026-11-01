@@ -1,0 +1,16 @@
+{
+  "name": "oral-paper-skill",
+  "version": "1.0.0",
+  "description": "Help authors learn from exemplary ICLR, ICML, and NeurIPS papers through source-linked manuscript comparisons, concrete writing and experiment suggestions, and guided reflection. Use for research storytelling, contribution framing, paper comparison, figure planning, or research retrospectives. Not an acceptance predictor or a routine grammar/citation formatter.",
+  "author": {
+    "name": "Adkid-Zephyr"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "oral-paper-skill",
+    "shortDescription": "Help authors learn from exemplary ICLR, ICML, and NeurIPS papers through source-linked manuscript comparisons, concrete writing and experiment suggestions, and guided reflection. Use for research storytelling, contribution framing, paper comparison, figure planning, or research retrospectives. Not an acceptance predictor or a routine grammar/citation formatter.",
+    "developerName": "Adkid-Zephyr",
+    "category": "Productivity"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "paper-redteam",
+  "version": "1.0.0",
+  "description": "Simulate rigorous, fair peer review on a paper — in two modes. (A) Red-team YOUR OWN draft before submission to predict the reviews you'll get and get a fix list. (B) Review SOMEONE ELSE'S paper when you're an assigned reviewer or helping your advisor — produce a fair, venue-formatted, submission-ready review. Use whenever the user gives a paper (PDF, .tex, .md, arXiv link, or pasted text) and wants to predict reviews, find weaknesses before reviewers do, stress-test a submission, OR write a real review of another paper. Grounded in official NeurIPS/ICLR/ACL reviewer guidelines; every criticism pinned to a location, and checked against ACL's H1–H17 list of illegitimate critiques. 两种模式:审自己的稿(投稿前红队)/ 审别人的稿(当审稿人或帮导师),按会议官方标准评,绝不脑补、绝不发不正当批评。",
+  "author": {
+    "name": "xf686"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "paper-redteam",
+    "shortDescription": "Simulate rigorous, fair peer review on a paper — in two modes. (A) Red-team YOUR OWN draft before submission to predict the reviews you'll get and get a fix list. (B) Review SOMEONE ELSE'S paper when you're an assigned reviewer or helping your advisor — produce a fair, venue-formatted, submission-ready review. Use whenever the user gives a paper (PDF, .tex, .md, arXiv link, or pasted text) and wants to predict reviews, find weaknesses before reviewers do, stress-test a submission, OR write a real review of another paper. Grounded in official NeurIPS/ICLR/ACL reviewer guidelines; every criticism pinned to a location, and checked against ACL's H1–H17 list of illegitimate critiques. 两种模式:审自己的稿(投稿前红队)/ 审别人的稿(当审稿人或帮导师),按会议官方标准评,绝不脑补、绝不发不正当批评。",
+    "developerName": "xf686",
+    "category": "Productivity"
+  }
+}

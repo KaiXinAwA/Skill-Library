@@ -1,0 +1,16 @@
+{
+  "name": "paper-analyzer",
+  "version": "1.0.0",
+  "description": "将学术论文转化为深度HTML长文。6轮强制工作流、代码仓库搜索、公式渲染、Mermaid图表。3种写作风格，输出可直接分享的精美HTML页面。",
+  "author": {
+    "name": "zsyggg"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "paper-analyzer",
+    "shortDescription": "将学术论文转化为深度HTML长文。6轮强制工作流、代码仓库搜索、公式渲染、Mermaid图表。3种写作风格，输出可直接分享的精美HTML页面。",
+    "developerName": "zsyggg",
+    "category": "Productivity"
+  }
+}

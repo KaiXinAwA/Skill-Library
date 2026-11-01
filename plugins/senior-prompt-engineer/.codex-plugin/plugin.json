@@ -1,0 +1,16 @@
+{
+  "name": "senior-prompt-engineer",
+  "version": "1.0.0",
+  "description": "Prompt engineering and LLM evaluation. Use when optimizing prompts, designing prompt templates, evaluating LLM outputs, building agentic systems, implementing RAG, creating few-shot examples, or designing structured-output workflows.",
+  "author": {
+    "name": "borghei"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "developerName": "borghei",
+    "shortDescription": "Prompt engineering and LLM evaluation. Use when optimizing prompts, designing prompt templates, evaluating LLM outputs, building agentic systems, implementing RAG, creating few-shot examples, or designing structured-output workflows.",
+    "displayName": "senior-prompt-engineer",
+    "category": "Productivity"
+  }
+}

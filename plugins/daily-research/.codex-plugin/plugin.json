@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "skills": "./skills/",
+  "interface": {
+    "developerName": "hardikpandya + mvanhorn (community)",
+    "displayName": "Daily Research & Writing",
+    "category": "Productivity",
+    "shortDescription": "Daily-use skills: stop-slop (zero-slop, removes AI writing patterns) + last30days (research any topic across Reddit, X, YouTube, Hacker News, web in the last 30 days)."
+  },
+  "name": "daily-research",
+  "description": "Daily-use skills: stop-slop (zero-slop, removes AI writing patterns) + last30days (research any topic across Reddit, X, YouTube, Hacker News, web in the last 30 days).",
+  "license": "MIT",
+  "author": {
+    "name": "hardikpandya + mvanhorn (community)"
+  }
+}

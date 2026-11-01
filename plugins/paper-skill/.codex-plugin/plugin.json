@@ -1,0 +1,16 @@
+{
+  "name": "paper-skill",
+  "version": "1.0.0",
+  "description": "End-to-end, Chinese-first academic research and publication workflow for reading papers, literature reviews, research framing, manuscript planning and writing, Chinese-English translation, LaTeX, figures, citation verification, reporting-guideline checks, journal selection, peer review, rebuttals, revisions, and submission packages. Use for SCI, IEEE, Nature-family, IJCAI, TRO, theses, systematic reviews, clinical/observational/animal studies, and any task where claims, evidence, references, manuscript files, or journal requirements must be checked rather than invented.",
+  "author": {
+    "name": "cLin-c"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "paper-skill",
+    "shortDescription": "End-to-end, Chinese-first academic research and publication workflow for reading papers, literature reviews, research framing, manuscript planning and writing, Chinese-English translation, LaTeX, figures, citation verification, reporting-guideline checks, journal selection, peer review, rebuttals, revisions, and submission packages. Use for SCI, IEEE, Nature-family, IJCAI, TRO, theses, systematic reviews, clinical/observational/animal studies, and any task where claims, evidence, references, manuscript files, or journal requirements must be checked rather than invented.",
+    "developerName": "cLin-c",
+    "category": "Productivity"
+  }
+}

@@ -291,6 +291,54 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "category": "Productivity",
+      "name": "academic-humanizer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/academic-humanizer"
+      },
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      }
+    },
+    {
+      "category": "Productivity",
+      "name": "humanizer-zh",
+      "source": {
+        "source": "local",
+        "path": "./plugins/humanizer-zh"
+      },
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      }
+    },
+    {
+      "category": "Developer Tools",
+      "name": "archify",
+      "source": {
+        "source": "local",
+        "path": "./plugins/archify"
+      },
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      }
+    },
+    {
+      "category": "Productivity",
+      "name": "paper2agent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/paper2agent"
+      },
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      }
     }
   ]
 }

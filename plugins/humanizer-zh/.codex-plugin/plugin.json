@@ -1,0 +1,16 @@
+{
+  "description": "Edit Chinese articles, comments and documents to remove empty talk, repetition and templated expressions, keeping facts and author voice. For polishing existing Chinese text.",
+  "license": "MIT",
+  "author": {
+    "name": "Richard Wong"
+  },
+  "skills": "./skills/",
+  "version": "1.0.0",
+  "interface": {
+    "shortDescription": "中文文本去模板化润色",
+    "developerName": "Richard Wong",
+    "displayName": "Humanizer 中文",
+    "category": "Productivity"
+  },
+  "name": "humanizer-zh"
+}

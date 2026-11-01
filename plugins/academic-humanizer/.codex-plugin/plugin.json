@@ -1,0 +1,16 @@
+{
+  "description": "Improve the clarity and voice of AI-assisted academic writing while preserving scholarly conventions and evidence accuracy. For papers, theses, rebuttals and grant proposals.",
+  "license": "MIT",
+  "author": {
+    "name": "Richard Wong"
+  },
+  "skills": "./skills/",
+  "version": "1.0.0",
+  "interface": {
+    "shortDescription": "让 AI 辅助的学术写作更自然、更符合学术规范",
+    "developerName": "Richard Wong",
+    "displayName": "Academic Humanizer",
+    "category": "Productivity"
+  },
+  "name": "academic-humanizer"
+}

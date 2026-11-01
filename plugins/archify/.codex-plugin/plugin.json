@@ -1,0 +1,16 @@
+{
+  "description": "Create validated architecture, workflow, sequence, data-flow, lifecycle, ERD, class, tree, timeline and waterfall diagrams as explorable standalone HTML. Turn answers into one-page explainers.",
+  "license": "MIT",
+  "author": {
+    "name": "Richard Wong"
+  },
+  "skills": "./skills/",
+  "version": "1.0.0",
+  "interface": {
+    "shortDescription": "把想法/代码库转成交互式图表与一页式解释",
+    "developerName": "Richard Wong",
+    "displayName": "Archify",
+    "category": "Developer Tools"
+  },
+  "name": "archify"
+}

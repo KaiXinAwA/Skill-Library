@@ -1,0 +1,16 @@
+{
+  "description": "Convert research papers and associated files, research code, or both into a reviewed paper skill and tested MCP server.",
+  "license": "MIT",
+  "author": {
+    "name": "Richard Wong"
+  },
+  "skills": "./skills/",
+  "version": "1.0.0",
+  "interface": {
+    "shortDescription": "论文/研究代码转 Agent Skill 与 MCP 服务器",
+    "developerName": "Richard Wong",
+    "displayName": "Paper2Agent",
+    "category": "Productivity"
+  },
+  "name": "paper2agent"
+}

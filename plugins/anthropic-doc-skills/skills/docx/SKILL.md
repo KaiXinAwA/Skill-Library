@@ -1,6 +1,6 @@
 ---
 name: docx
-description: "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation."
+description: "Use for Word documents at the OOXML level: .docx/.dotx internals, templates, sections/headers/fields, tracked changes and comments, image and table manipulation, bulk find-and-replace, style and numbering definitions, python-docx / docx-js pipelines. 中文公文与常规 Word 读写排版走 word。不用于 PDF、表格（走 xlsx/sheet）或无关的代码任务。"
 license: Proprietary. LICENSE.txt has complete terms
 ---
 

@@ -7,6 +7,8 @@ description: |
   conventions, match claims to evidence (and, for proposals, claims to feasibility), and match the
   author's own voice. It never changes a number, result, or citation, and it is not for evading
   AI-use disclosure. Use when editing AI-assisted academic prose or grant proposals.
+  Boundary: English academic prose and grant proposals only — 中文文本走 doubao-human-signal 或 anti-defensive-writing。
+  侧重：英文学术语气的清晰度与作者声音，不动数字与引文；不用于非学术文本（散文/博客走 stop-slop）。
 license: MIT
 compatibility: claude-code codex morphmind opencode
 allowed-tools: [Read, Write, Edit, Grep, Glob, AskUserQuestion]

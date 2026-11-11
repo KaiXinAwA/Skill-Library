@@ -7,6 +7,7 @@ description: >
   攻击自己。
   触发词：论文润色、论文修改、写摘要、写引言、写结论、压缩论文、rebuttal、回复审稿意见、
   组织实验、论文AI味、防御性写作、心虚。
+  侧重：论文的叙事与取舍（不示弱、不写实验流水账、不替审稿人攻击自己）。不做去 AI 词表（走 doubao-human-signal）；英文论文用 anti-defensive-writing-en。
 ---
 
 # 学术写作原则(The Press-Release Principle)

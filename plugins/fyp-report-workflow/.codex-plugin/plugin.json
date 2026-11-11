@@ -1,0 +1,15 @@
+{
+  "name": "fyp-report-workflow",
+  "version": "1.0.0",
+  "description": "UTS BCS FYP 报告写作与维护工作流：Chapter 1-5 撰写修订、Reference 引文核验与书目、markdown 转 docx 与核查、目录架构与交接文档、导师与 SV 沟通材料。",
+  "author": {
+    "name": "Richard Wong"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "FYP 报告工作流",
+    "shortDescription": "UTS BCS 毕业设计报告写作与维护（Ch1-5 / 引文核验 / 转 docx）",
+    "developerName": "KaiXinAwA",
+    "category": "Education"
+  }
+}

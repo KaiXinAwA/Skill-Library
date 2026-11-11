@@ -1,0 +1,16 @@
+{
+  "name": "filee",
+  "version": "1.0.0",
+  "description": "Convert files offline with the Filee command-line tool (images, documents, PDF, audio, video, ebooks). Use when a file needs converting to another format, or when checking whether a format can be converted.",
+  "author": {
+    "name": "Myeonggu Kim (KnifeLemon)"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Filee 文件转换",
+    "shortDescription": "离线文件格式转换 CLI（263 种格式）",
+    "developerName": "KnifeLemon",
+    "category": "Developer Tools"
+  }
+}

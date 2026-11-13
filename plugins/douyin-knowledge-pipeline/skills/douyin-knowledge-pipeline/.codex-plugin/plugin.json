@@ -1,0 +1,16 @@
+{
+  "name": "douyin-knowledge-pipeline",
+  "version": "1.0.0",
+  "description": "抖音视频知识自动入库流水线：输入抖音分享链接，自动完成 下载视频→本地 SenseVoice 提取口播逐字稿→本地 qwen 整理成结构化知识卡片→推入 Open WebUI「个人综合知识库」做 RAG。无需登录抖音账号、无需 API key、全程本地。用户说'处理这条抖音/把这个视频整理进知识库/提取视频内容存起来'时使用。",
+  "author": {
+    "name": "Richard"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "douyin-knowledge-pipeline",
+    "shortDescription": "抖音链接→逐字稿→知识卡片→Open WebUI 知识库（本地全自动）",
+    "developerName": "Richard",
+    "category": "Developer Tools"
+  }
+}

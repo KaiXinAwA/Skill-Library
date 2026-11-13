@@ -20,9 +20,9 @@ description: 抖音视频知识自动入库流水线。用户提供抖音分享�
 | likebeans/douyin_text_extraction | `D:\AI\douyin_text_extraction`（uv 项目，SenseVoiceSmall 本地转写） |
 | uv | WinGet 安装，完整路径见 `references/dependencies.md` |
 | ffmpeg | WinGet 安装，bin 目录见 `references/dependencies.md` |
-| Ollama | `http://localhost:11434`，模型 `qwen3.5:4b`（默认）/ `qwen3:8b` |
+| Ollama | `http://localhost:11434`，默认 `qwen3.5:4b`；指定的模型不存在时脚本自动回落到已安装的对话模型 |
 | Open WebUI | `http://localhost:8080`，API key 在 `D:\AI\Skill-Library\OpenWebUI-Sync\.env` |
-| 知识库 | 「个人综合知识库」ID=`1c84643c-02d3-452e-9336-1718b10acafd` |
+| 知识库 | 双写：「抖音知识卡片」ID=`d580d64e-1d2d-40cf-9dc5-7900bd85c76c` + 「个人综合知识库」ID=`1c84643c-02d3-452e-9336-1718b10acafd` |
 
 ## 执行流程
 
@@ -36,15 +36,15 @@ python "D:\AI\Skill-Library\02-Custom\douyin-knowledge-pipeline\scripts\douyin_p
   ```powershell
   python "...\scripts\douyin_pipeline.py" --file "D:\path\links.txt" "qwen3.5:4b"
   ```
-- 模型可选 `qwen3.5:4b`（快，默认）或 `qwen3:8b`（更准、慢）。
+- 模型可选 `qwen3.5:4b`（快，默认）或 `qwen3.5:9b`（更准、慢）；传了不存在的模型名不会失败，会自动回落。
 
-脚本输出：每条视频的 标题 / 逐字稿字数 / 知识卡片路径（`D:\AI\douyin_text_extraction\output\*_knowledge.md`）/ 知识库入库 file_id。
+脚本输出：每条视频的 标题 / 判定语种 / 逐字稿字数 / 知识卡片路径（`D:\AI\douyin_text_extraction\output\*_knowledge.md`）/ 知识库入库 file_id。
 
 ## 关键规则
 
 1. **不要登录抖音账号**——方案无需登录；用户手动把收藏链接整理成文本/Excel 发来即可。
 2. **整理一律走本地 qwen**，不调 DeepSeek 等云端 API。
-3. 知识卡片规范（YAML frontmatter + 七个章节）由脚本内置 prompt 保证；脚本会自动把模型幻觉的 date/valid_from 覆写为当天。
+3. 知识卡片规范（YAML frontmatter + 七个章节）由脚本内置 prompt 保证，并由 `build_card()` 强制清洗：剥掉模型爱加的整篇代码块包裹（三个反引号或 ```markdown）、重写合法 YAML（tags 强制为列表、weight 夹到 1-5）、date/valid_from 覆写为当天。这样卡片在 WebUI 里才会正常渲染，不会显示成一大段代码块、YAML 裸露。
 4. 入库走 Open WebUI 两步 API：上传文件 → 关联知识库。脚本用 requests 标准 multipart（**不要用 urllib 手拼 multipart，会超时**），且幂等：同名文件已在库则直接复用，重复处理同一链接不会产生重复文件。
 5. RAG 引用验证：对话时以 `files: [{id: "<知识库ID>", type: "collection", status: "processed"}]` 传参（`knowledge` 参数不生效）。
 6. Open WebUI 工具调用：裸 API 请求（无 chat_id/id/stream）**不会执行工具**。WebUI 界面聊天天然走对路径；API 直调需用 `params.function_calling: "legacy"` + `tool_ids`（Path B），或完整 chat 流程（Path A）。
@@ -57,3 +57,6 @@ python "D:\AI\Skill-Library\02-Custom\douyin-knowledge-pipeline\scripts\douyin_p
 
 - 依赖清单与排障：`references/dependencies.md`
 - 工具（Open WebUI Tools）版本：`douyin_pipeline_tool` 已注册，预设模型 `douyin-kb-local` / `douyin-kb-cloud` 已挂载该工具，用户在 WebUI 直接发链接给这两个模型即可触发。
+
+7. **多语言支持**：ASR 用 SenseVoice 多语模型（中/英/日/韩/粤），`language` 由环境变量 `SENSEVOICE_LANGUAGE` 控制，默认 `auto` 自动识别；云端 DashScope 路径本身带 `language_hints=["zh","en"]`。无论原文是中文还是英文，卡片正文一律输出简体中文；英文原文的「原文摘录」保留原句并附中文直译，frontmatter 带 `source_language`。
+8. **入库 400 排查**：若关联知识库返回 `Collection expecting embedding with dimension of 384, got 1024`，说明该库的向量集合还是旧的 384 维（all-MiniLM），而当前嵌入已换成 bge-m3（1024 维），需调 `POST /api/v1/knowledge/reindex` 重索引；重索引后同名上传即可恢复正常入库。

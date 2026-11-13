@@ -11,6 +11,7 @@ description: >
   Triggers: polish my paper, revise manuscript, write abstract, write introduction,
   write conclusion, shorten paper, rebuttal, respond to reviewers, organize
   experiments, defensive writing, AI-flavored academic writing.
+  Boundary: English manuscripts only — for Chinese papers use `anti-defensive-writing`.
 ---
 
 # The Press-Release Principle (Paper as Press Conference)

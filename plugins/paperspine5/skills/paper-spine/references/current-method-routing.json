@@ -324,7 +324,7 @@
     {
       "path": "references/contracts/publication-target-profile.schema.json",
       "purpose": "完整schema字段及其科学来源/五槽/覆盖语义",
-      "current_application": "作可选机器输入，必须结合consumer语义；建议补全五槽/source/area唯一性\n不把pending元数据传播成禁止本地论文\n原封装对应范围：宽松JSON外壳比consumer弱",
+      "current_application": "作可选机器输入，必须结合consumer语义；建议补全五槽/source/area唯一性\n不把pending元数据传播成禁止本地papers\n原封装对应范围：宽松JSON外壳比consumer弱",
       "review_check": "重复覆盖反例需拒绝\nschema-valid不等于official已读或目标已合规",
       "stages": [
         "research",

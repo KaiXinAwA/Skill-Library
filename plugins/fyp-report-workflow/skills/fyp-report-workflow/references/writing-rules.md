@@ -25,7 +25,7 @@
 - 不在结论最后一段突然加入自我否定或扩大局限。
 - 每个实验与每段论述都要有明确职责：证明核心方法有效、证明优势来自关键机制、证明方法在目标场景有价值、排除最可能的替代解释。做不到这些的内容不进主线。
 
-展开的做法与自查清单见 `D:\Project\FYP\_Skills\anti-defensive-writing\SKILL.md`。
+展开的做法与自查清单见 `D:\Reborn\01-study\fyp1\_Skills\anti-defensive-writing\SKILL.md`。
 
 ## 4. 引用纪律
 

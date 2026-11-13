@@ -24,7 +24,7 @@
 
 ### 5. Open WebUI
 - 服务: http://localhost:8080 (v0.12.5)
-- API key: 存于 D:\AI\Skill-Library\OpenWebUI-Sync\.env 的 OPENWEBUI_API_KEY=（脚本自动读取，不硬编码）
+- API key: 存于 D:\Reborn\skill\Skill-Library\OpenWebUI-Sync\.env 的 OPENWEBUI_API_KEY=（脚本自动读取，不硬编码）
 - 知识库: 「个人综合知识库」ID=1c84643c-02d3-452e-9336-1718b10acafd
 
 ## 知识库 API 调用（脚本已封装，这里留档）

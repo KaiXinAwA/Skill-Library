@@ -6,7 +6,7 @@ description: Manage this machine's local LLM stack (Ollama, Open WebUI, Docker, 
 # Local AI Manager
 
 > 本 Skill 把这台机器上已经核实过的本地 AI 部署知识固化下来，让任何 AI 工具（豆包、Codex、Claude Code、Cursor 等）一上来就懂环境，不用用户每次从头解释。
-> 所有事实来自 `D:\AI\Knowledge-Base\06-AI-System\` 下两份部署文档，未核实的推断不要写进来。
+> 所有事实来自 `D:\Reborn\03-knowledge\tech-notes\ai-system\` 下两份部署文档，未核实的推断不要写进来。
 
 ## 1. 环境快照（2026-10 核实）
 
@@ -183,13 +183,13 @@ Ollama 提供 **OpenAI 兼容 API**，任何支持自定义 OpenAI endpoint 的�
 | Open WebUI 聊天界面 | http://localhost:3000 |
 | Ollama API（本机） | `http://localhost:11434` |
 | Ollama API（OpenAI 兼容） | `http://localhost:11434/v1` |
-| Skill 中央仓库 | `D:\AI\Skill-Library` |
-| 知识库原始资料 | `D:\AI\Knowledge-Base` |
-| AI 系统部署文档 | `D:\AI\Knowledge-Base\06-AI-System` |
+| Skill 中央仓库 | `D:\Reborn\skill\Skill-Library` |
+| 知识库原始资料 | `D:\Reborn\03-knowledge` |
+| AI 系统部署文档 | `D:\Reborn\03-knowledge\tech-notes\ai-system` |
 | Open WebUI 容器数据 | Docker 卷 `open-webui` → `/app/backend/data` |
 
 ---
 
 ## 9. 更新日志
 
-- **2026-10-28**：初始版本。基于 `D:\AI\Knowledge-Base\06-AI-System\` 下两份部署文档创建。已装模型仅 `qwen3.5:4b`。参考了 gschoep/build-with-local-llm-ollama 的 config/VRAM 估算结构和 IsmaelMartinez/delegate-local 的红线写法，但没有抄代码模板（本场景是个人运维，不是用 Ollama 写应用）。
+- **2026-10-28**：初始版本。基于 `D:\Reborn\03-knowledge\tech-notes\ai-system\` 下两份部署文档创建。已装模型仅 `qwen3.5:4b`。参考了 gschoep/build-with-local-llm-ollama 的 config/VRAM 估算结构和 IsmaelMartinez/delegate-local 的红线写法，但没有抄代码模板（本场景是个人运维，不是用 Ollama 写应用）。

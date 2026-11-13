@@ -1,6 +1,6 @@
 # 随附 skill 清单
 
-需要的 skill 已复制到 `D:\Project\FYP\_Skills`，目的是让接手的 AI 即使换到没有装这些 skill 的环境，也能从项目文件夹里就地读取并使用。
+需要的 skill 已复制到 `D:\Reborn\01-study\fyp1\_Skills`，目的是让接手的 AI 即使换到没有装这些 skill 的环境，也能从项目文件夹里就地读取并使用。
 
 优先规则：当前环境已装同名 skill 时用已装版本；路径失效、或换了机器读不到时，改用 `_Skills` 内的副本。行为一致，副本只是快照。
 
@@ -22,7 +22,7 @@
 3. 需要把 markdown 转 docx 时，优先用 `fyp-report-workflow\scripts\md2docx.py`，它已做成命令行版本：
 
 ```
-python "D:\Project\FYP\_Skills\fyp-report-workflow\scripts\md2docx.py" <源 md> <目标 docx>
+python "D:\Reborn\01-study\fyp1\_Skills\fyp-report-workflow\scripts\md2docx.py" <源 md> <目标 docx>
 ```
 
 4. 需要终稿版式（Times New Roman 12 pt、1.5 倍行距、题注规范）时读 `word`，不要用转换脚本的工作稿冒充终稿。
@@ -38,7 +38,7 @@ python "D:\Project\FYP\_Skills\fyp-report-workflow\scripts\md2docx.py" <源 md> 
 - 副本是某一时点的快照。上游 skill 更新后，重新复制一次覆盖即可：
 
 ```
-Copy-Item -LiteralPath "<上游 skill 目录>" -Destination "D:\Project\FYP\_Skills\<名称>" -Recurse -Force
+Copy-Item -LiteralPath "<上游 skill 目录>" -Destination "D:\Reborn\01-study\fyp1\_Skills\<名称>" -Recurse -Force
 ```
 
 - 新增依赖 skill 时，复制进 `_Skills` 并同时更新本表，不要只在对话里说明。

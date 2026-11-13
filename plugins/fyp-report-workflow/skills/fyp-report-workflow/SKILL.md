@@ -1,6 +1,6 @@
 ---
 name: fyp-report-workflow
-description: 用于 UTS BCS FYP 报告（D:\Project\FYP）的写作与维护：Chapter 1 至 5 撰写与修订、Reference 引文核验与书目、markdown 转 docx 与核查、目录架构与交接文档、导师与 SV 沟通材料。用户提到 FYP、chapter、introduction、literature review、methodology、preliminary results、project planning、reference 核查、TRF、handbook，或要接手续写该报告时使用。动笔前必须先读知识库与 handbook 并确认架构。
+description: 用于 UTS BCS FYP 报告（D:\Reborn\01-study\fyp1）的写作与维护：Chapter 1 至 5 撰写与修订、Reference 引文核验与书目、markdown 转 docx 与核查、目录架构与交接文档、导师与 SV 沟通材料。用户提到 FYP、chapter、introduction、literature review、methodology、preliminary results、project planning、reference 核查、TRF、handbook，或要接手续写该报告时使用。动笔前必须先读知识库与 handbook 并确认架构。
 ---
 
 # FYP 报告工作流
@@ -9,8 +9,8 @@ description: 用于 UTS BCS FYP 报告（D:\Project\FYP）的写作与维护：C
 
 ## 加载预算
 
-- 本 skill 只服务 `D:\Project\FYP`。别的项目不读它的 references，也不套用它的流程。
-- 进门顺序：`D:\Project\FYP\AGENTS.md` → `Overview\FYP_AI_Sync_and_Master_Architecture.md` → 本章现行权威文件。
+- 本 skill 只服务 `D:\Reborn\01-study\fyp1`。别的项目不读它的 references，也不套用它的流程。
+- 进门顺序：`D:\Reborn\01-study\fyp1\AGENTS.md` → `Overview\FYP_AI_Sync_and_Master_Architecture.md` → 本章现行权威文件。
 - references 按需读，一次只读用得上的那一份，不预读全套：
 
 | 要解决的问题 | 读哪份 |
@@ -26,7 +26,7 @@ description: 用于 UTS BCS FYP 报告（D:\Project\FYP）的写作与维护：C
 
 ## 四道门禁：任一未通过，不许动笔
 
-**门禁 1 先读资料。** `D:\AI\Knowledge-Base\02-FYP`、`D:\AI\Knowledge-Base\01-University`、`Administration\Handbook_Template_Forms`（handbook 与 `FYP Template_V5.docx`）、`Overview` 总架构、本章现行文件。读摘要或凭记忆不算读完，读不到先解决读取问题。
+**门禁 1 先读资料。** `D:\Reborn\03-knowledge\reference\fyp-writing-guide`、`D:\Reborn\01-study\University`、`Administration\Handbook_Template_Forms`（handbook 与 `FYP Template_V5.docx`）、`Overview` 总架构、本章现行文件。读摘要或凭记忆不算读完，读不到先解决读取问题。
 
 **门禁 2 先确认。** 给用户一段确认，写清四件事：改哪章哪节；用哪个固定结构；改哪些文件、不动哪些；哪些决定资料没覆盖、必须由用户拍板。确认后才动笔。
 
@@ -59,7 +59,7 @@ description: 用于 UTS BCS FYP 报告（D:\Project\FYP）的写作与维护：C
 
 ## 目录与文件
 
-根目录 `D:\Project\FYP`；文件夹用平实英文名，不加数字前缀。不设 Revised 式目录，每章一个文件夹，现行文件直接放里面；被取代的版本进 `_Archive`，不删。每章固定四件套，命名以章文件夹名为前缀：
+根目录 `D:\Reborn\01-study\fyp1`；文件夹用平实英文名，不加数字前缀。不设 Revised 式目录，每章一个文件夹，现行文件直接放里面；被取代的版本进 `_Archive`，不删。每章固定四件套，命名以章文件夹名为前缀：
 
 | 文件 | 读者 | 职责 |
 |---|---|---|
@@ -109,7 +109,7 @@ python scripts/check_report.py <章 md> --docx <章 docx>
 
 ## 随附 skill
 
-脱离本机 skill 目录也能工作：所需 skill 已复制到 `D:\Project\FYP\_Skills`，清单与用途见 `references/bundled-skills.md`。已装同名版本优先用已装的，路径失效再用副本。
+脱离本机 skill 目录也能工作：所需 skill 已复制到 `D:\Reborn\01-study\fyp1\_Skills`，清单与用途见 `references/bundled-skills.md`。已装同名版本优先用已装的，路径失效再用副本。
 
 ## 全局记忆
 

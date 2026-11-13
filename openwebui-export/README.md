@@ -1,6 +1,6 @@
 # Open WebUI 技能导入包
 
-> 本目录把 `D:\AI\Skill-Library\00-General\` 下的技能整理成 Open WebUI 可识别的格式。
+> 本目录把 `D:\Reborn\skill\Skill-Library\00-General\` 下的技能整理成 Open WebUI 可识别的格式。
 > Open WebUI 版本要求：0.6+（你的实例是 0.12.5，完全支持）。
 > 生成日期：2026-10-30
 
@@ -24,13 +24,13 @@
 1. 打开 `http://localhost:8080` 并登录
 2. 左侧边栏 → **工作空间** → **技能**
 3. 点 **创建** 按钮旁的小箭头（chevron 菜单）→ **导入**（Import）
-4. 选择一个分类 zip，例如 `D:\AI\Skill-Library\OpenWebUI-Export\A-学术写作.zip`
+4. 选择一个分类 zip，例如 `D:\Reborn\skill\Skill-Library\OpenWebUI-Export\A-学术写作.zip`
 5. 导入预览会列出每个技能的名称/ID/文件，逐个点 **创建**（Create）即可
 6. 重复导入其他分类
 
 ### 方式 B：导入文件夹
 1. 工作空间 → 技能 → chevron → **导入文件夹**（Import folder）
-2. 选择 `D:\AI\Skill-Library\OpenWebUI-Export\skills\A-学术写作\` 这样的分类文件夹
+2. 选择 `D:\Reborn\skill\Skill-Library\OpenWebUI-Export\skills\A-学术写作\` 这样的分类文件夹
 3. 预览确认后逐个创建
 
 ## 导入后如何使用

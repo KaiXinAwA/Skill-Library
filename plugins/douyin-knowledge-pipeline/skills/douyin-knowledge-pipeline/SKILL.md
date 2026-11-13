@@ -21,7 +21,7 @@ description: 抖音视频知识自动入库流水线。用户提供抖音分享�
 | uv | WinGet 安装，完整路径见 `references/dependencies.md` |
 | ffmpeg | WinGet 安装，bin 目录见 `references/dependencies.md` |
 | Ollama | `http://localhost:11434`，默认 `qwen3.5:4b`；指定的模型不存在时脚本自动回落到已安装的对话模型 |
-| Open WebUI | `http://localhost:8080`，API key 在 `D:\AI\Skill-Library\OpenWebUI-Sync\.env` |
+| Open WebUI | `http://localhost:8080`，API key 在 `D:\Reborn\skill\Skill-Library\OpenWebUI-Sync\.env` |
 | 知识库 | 双写：「抖音知识卡片」ID=`d580d64e-1d2d-40cf-9dc5-7900bd85c76c` + 「个人综合知识库」ID=`1c84643c-02d3-452e-9336-1718b10acafd` |
 
 ## 执行流程
@@ -29,7 +29,7 @@ description: 抖音视频知识自动入库流水线。用户提供抖音分享�
 用 `scripts/douyin_pipeline.py` 一条命令完成全流程：
 
 ```powershell
-python "D:\AI\Skill-Library\02-Custom\douyin-knowledge-pipeline\scripts\douyin_pipeline.py" "<链接>" "qwen3.5:4b"
+python "D:\Reborn\skill\Skill-Library\02-Custom\douyin-knowledge-pipeline\scripts\douyin_pipeline.py" "<链接>" "qwen3.5:4b"
 ```
 
 - 批量（每行一条链接的文本文件）：

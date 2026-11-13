@@ -1,7 +1,7 @@
 # Skill Library — 个人 AI 技能市场
 
 > 个人收集/整理的 Agent Skills 市场仓库，供 **ChatGPT 桌面版（Codex 插件市场）** 与 **Open WebUI** 同步使用。
-> 内容由本地 `D:\AI\Skill-Library` 维护并自动推送。
+> 内容由本地 `D:\Reborn\skill\Skill-Library` 维护并自动推送。
 
 ## 仓库结构
 
@@ -44,7 +44,7 @@ Skill-Library/
 > 或直接在仓库页面下载 `openwebui-export/*.zip` 再「导入」上传。
 
 ## 更新流程
-1. 在本地 `D:\AI\Skill-Library\GPT-Export` 整理好市场与技能
+1. 在本地 `D:\Reborn\skill\Skill-Library\GPT-Export` 整理好市场与技能
 2. `git add . && git commit -m "..." && git push`
 3. 各端按上述方式刷新
 

@@ -66,7 +66,7 @@ Chapter 1 至 3 在 FYP1 写成，进入 FYP2 时更新而非重写。只有 Cha
 
 ## 4. 目录表
 
-根目录 `D:\Project\FYP`。
+根目录 `D:\Reborn\01-study\fyp1`。
 
 | 文件夹 | 用途 | 权威内容 |
 |---|---|---|

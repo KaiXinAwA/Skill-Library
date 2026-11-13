@@ -52,7 +52,7 @@ EMBED_HINTS = ("embed", "bert", "bge", "m3")
 
 
 def read_api_key():
-    env_path = Path(r"D:\AI\Skill-Library\OpenWebUI-Sync\.env")
+    env_path = Path(r"D:\Reborn\skill\Skill-Library\OpenWebUI-Sync\.env")
     if env_path.exists():
         for line in env_path.read_text(encoding="utf-8").splitlines():
             line = line.strip()

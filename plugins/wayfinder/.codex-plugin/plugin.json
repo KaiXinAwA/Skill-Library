@@ -1,0 +1,16 @@
+{
+  "name": "wayfinder",
+  "version": "1.0.0",
+  "description": "Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
+  "author": {
+    "name": "mattpocock"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "wayfinder",
+    "shortDescription": "Map a large effort as decision tickets",
+    "developerName": "mattpocock",
+    "category": "Developer Tools"
+  }
+}

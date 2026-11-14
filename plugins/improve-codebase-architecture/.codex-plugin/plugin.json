@@ -1,0 +1,16 @@
+{
+  "name": "improve-codebase-architecture",
+  "version": "1.0.0",
+  "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+  "author": {
+    "name": "mattpocock"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "improve-codebase-architecture",
+    "shortDescription": "Find deepening opportunities, then grill",
+    "developerName": "mattpocock",
+    "category": "Developer Tools"
+  }
+}

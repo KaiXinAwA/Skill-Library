@@ -73,9 +73,10 @@ Chapter 1 至 3 在 FYP1 写成，进入 FYP2 时更新而非重写。只有 Cha
 | `Chapter_1_Introduction` | 第一章 | `Chapter_1_Introduction.md` 与 `.docx` |
 | `Chapter_2_Literature_Review` | 第二章 | `Chapter_2_Literature_Review.md` 与 `.docx` |
 | `Chapter_3_Methodology` | 方法与评估设计 | `Chapter_3_Methodology.md` / `.docx` / `_中文说明.md` / `.docx`；`Evaluation\`（评估卷、rubric、隐藏用例的唯一源） |
-| `Chapter_4_Preliminary_Results` | FYP1 初步结果 | 待原型与初步测试完成后写入 |
+| `Chapter_4_Preliminary_Results` | FYP1 初步结果 | 骨架与证据清单已落盘（2026-11-16），结果待原型与试跑 |
 | `Chapter_5_Project_Planning` | 计划与 FYP2 素材 | `Limitations_Draft.md` |
 | `Reference` | 全部文献与文献文档 | 25 个 PDF；`_PDF_Text\`（同名纯文本，供 grep 原句）；Catalogue；`Reference_Deep_Analysis.md` 与 `.docx`；离题文献在 `_Archive\Excluded_References` |
+| `fyp-writing-guide` | 写作规范与讲义（5 份 PDF） | 2026-11-15 从 `03-knowledge` 迁入；handbook、briefing、Ch2 讲义以 `Administration\Handbook_Template_Forms` 为准 |
 | `Administration` | 官方文件 | `Handbook_Template_Forms`、`TRF`、`Gantt_Chart` |
 | `Communication` | 邮件、会议、给 lecturer 的材料 | `Emails`、`Meeting_Preparation`、`Lecturer_Proposals` |
 | `Overview` | 跨章与交接文档 | 总架构文档；`Chapters_1_3_Review_Notes_中文说明`（含 Ch1、Ch2 逐段理由附录）；`Document_Cleanup_2026-11-08_中文说明` |

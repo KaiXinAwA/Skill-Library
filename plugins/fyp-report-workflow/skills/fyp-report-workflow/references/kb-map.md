@@ -2,19 +2,22 @@
 
 写任何一章之前，先按本表确认"这个问题该读哪个文件"。读不到就从别处找，不用记忆补。
 
-## 1. 知识库：`D:\Reborn\03-knowledge`
+## 1. 资料位置
 
-### 1.1 `reference\fyp-writing-guide`（FYP 专属，优先级最高；2026-11-13 从 `02-FYP` 迁入）
+### 1.1 `fyp-writing-guide\`（FYP 专属，优先级最高）
+
+位置：`D:\Reborn\01-study\fyp1\fyp-writing-guide`（2026-11-13 从 `02-FYP` 迁到 03-knowledge，2026-11-15 迁入 `fyp1`；2026-11-16 与 `Administration` 重复的三份只保留后者，所以 handbook、briefing、Ch2 讲义按上表指到 `Administration`）。
 
 | 文件 | 回答什么问题 |
 |---|---|
-| `HANDBOOK OF BCS FYP Sem Sept 26_27_v11.docx (1).pdf` | 报告结构、章节职责、格式规范、评分与流程。第 8 章讲报告组织，8.3.2 为 FYP1 结构，8.4.12 为 FYP2 结构，第 9 章讲正文内容与标准规则 |
-| `FYP Briefing SE2627 (2).pdf` | 项目定位、里程碑、交付节奏 |
+| `Administration\Handbook_Template_Forms\HANDBOOK OF BCS FYP Sem Sept 26_27_v11.docx (1).pdf` | 报告结构、章节职责、格式规范、评分与流程。第 8 章讲报告组织，8.3.2 为 FYP1 结构，8.4.12 为 FYP2 结构，第 9 章讲正文内容与标准规则 |
+| `Administration\Handbook_Template_Forms\FYP Briefing SE2627 (2).pdf` | 项目定位、里程碑、交付节奏 |
 | `Chapter 1_introduction (1).pdf` | 第一章的教学期望与写法 |
-| `Chapter 2_Literature Review_MrDanielTan.pptx` | 第二章的教学期望：技术背景，到相关系统对比，到方法论框架 |
+| `Administration\Handbook_Template_Forms\Chapter 2_Literature Review_MrDanielTan.pptx` | 第二章的教学期望：技术背景，到相关系统对比，到方法论框架 |
 | `Chapter 3_Research Methodology_DrTanalachimi.pdf` | 第三章的教学期望：研究哲学（positivism、pragmatism）、演绎与归纳、定量与定性与混合方法、抽样、数据收集、描述统计、效度与信度、伦理、章节结构 |
-| `Chapter 3\C3_Methodology_Lecture_Notes_2026-11-02.md` 与 `.docx` | 第三章课堂 slide 的逐页转录，含十节结构、Step 2 至 Step 10 写作指引、Part A 至 F 练习框架、句式模板、29 张 slide 图片索引 |
-| `Chapter 3\WhatsApp Image 2026-11-02 at 9.00.*.jpeg` | 上述笔记对应的原始 slide 照片，笔记第 7 节有完整索引。需要核对细节时按索引取图 |
+| `Getting & Writing Preliminary Results for FYP1 (Marcella).pdf` | 第四章「初步结果」写什么、怎么组织：结果先行、图表呈现、过程与结果分开 |
+| `How to Write a Research Methodology.pdf` | 方法论章节的通用写法，与 Ch3 讲义互补 |
+| `Practical Exercise_RM.pdf` | 方法论课堂练习框架与术语口径 |
 
 ### 1.2 `01-study\university\y3s1`（学术惯例与课程语言；2026-11-13 迁入）
 
@@ -46,11 +49,13 @@
 | `Overview\FYP_AI_Sync_and_Master_Architecture.md` 与 `.docx` | 总架构与硬规则，任何任务的入口 |
 | `Reference\FYP_Final_Reference_and_Guidance_Catalogue.docx` | 文献目录，含类别与用途，查"这篇文献用来支撑哪一段" |
 | `Reference\Reference_Deep_Analysis.md` 与 `.docx` | 25 篇有效文献的逐篇拆解：APA 引用、研究问题、方法样本、带数字的发现、limitations 与 gaps、对本项目的用途、引用位置 |
-| `Reference\*.pdf` | 26 个 PDF，命名为 `Author (Year) - Title.pdf` |
-| `Chapter_3_Methodology\Evaluation_Scoring_Procedure.md` | 评分模型的权威口径 |
-| `Chapter_3_Methodology\Integrated_Evaluation_Plan.md` | 三个测试的组织与时间安排 |
+| `Reference\*.pdf` | 25 个 PDF，命名为 `Author (Year) - Title.pdf` |
+| `Chapter_3_Methodology\Chapter_3_Methodology.md` 第 3.5 节 | 三卷题量与时长、四维 rubric、评分分工的权威口径 |
+| `Chapter_3_Methodology\Chapter_3_引文核验与逐文分析.md` | 本章引用与逐文核验记录 |
+| `_Archive\Superseded_Chapter3_Planning_2026-11-08\` | 旧规划文件（`Evaluation_Scoring_Procedure`、`Integrated_Evaluation_Plan`），只作历史证据，不当口径 |
 | `Overview\Chapters1_2_Rationale_and_Top10_References.docx` | 第一二章的写作理由与十篇主文献分析 |
 | `Review_Comments\_Merged_Master_Review_Comments.docx` | 导师审阅意见合集，改稿前必读 |
+| `Chapter_1/2/3_*_revised.*` | 2026-11-13 生成的文风与长度修订版，与现行版并存；写新内容前先向用户确认以哪版为准 |
 
 ## 4. 章节与资料的对应
 
@@ -58,7 +63,7 @@
 |---|---|
 | Chapter 1 | handbook 第 9.1.1 节；`Chapter 1_introduction (1).pdf`；现行 `Chapter_1_Introduction.md`；catalogue 中与问题背景相关的文献 |
 | Chapter 2 | handbook 第 9.1.2 节；`Chapter 2_Literature Review_MrDanielTan.pptx`；`Reference_Deep_Analysis`；现行 `Chapter_2_Literature_Review.md` |
-| Chapter 3 | handbook 第 9.1.3 节与第 8 章；`Chapter 3_Research Methodology_DrTanalachimi.pdf`；`C3_Methodology_Lecture_Notes_2026-11-02.md`；`Evaluation_Scoring_Procedure.md`；`Integrated_Evaluation_Plan.md` |
+| Chapter 3 | handbook 第 9.1.3 节与第 8 章；`Chapter 3_Research Methodology_DrTanalachimi.pdf`；`C3_Methodology_Lecture_Notes_2026-11-02.md`；现行 `Chapter_3_Methodology.md`；`Chapter_3_引文核验与逐文分析.md` |
 | Chapter 4（FYP1） | `Milestones Verification Form` 的 M8 与 M9；SDLC 课程材料；原型与测试记录 |
 | Chapter 5（FYP1） | `CSS3453_IT-PROJECT-MANAGEMENT` 的 `lectures`；`Administration\Gantt_Chart\FYP1_Gantt_Chart_Version5.xlsx`；`Limitations_Draft.md` |
 | Reference 与引用核查 | catalogue；`Reference_Deep_Analysis.md`；原始 PDF |

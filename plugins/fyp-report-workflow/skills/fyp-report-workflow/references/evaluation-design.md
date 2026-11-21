@@ -14,7 +14,7 @@
 - Test C 是核心论断的决定性工具。只在 Test B 上升高可能只是记住了练过的题；Test C 上升才说明调试过程迁移到了新题。
 - 形式为 Google Form，题干是短小的有错 Python 程序，每题要求完成与系统一致的四步。
 - 题量：Test A 三题、Test B 三题、Test C 两题。三段合计约 30 分钟，其中 Test A 约 10 分钟、Test B 约 10 分钟、Test C 约 8 分钟。30 分钟指整场合计，不是每个测试各 30 分钟。
-- 口径优先级：题量与时长以 `Chapter_3_Methodology\Integrated_Evaluation_Plan.md` 为准，其次是第三章正文，再次是总架构文档。三处已统一为 A 三题、B 三题、C 两题、合计 30 分钟。改动任一处时必须同步改其余两处。
+- 口径优先级：题量与时长以 `Chapter_3_Methodology\Chapter_3_Methodology.md` 第 3.5.1 节为准，其次是总架构文档 5.1 节。`Integrated_Evaluation_Plan.md` 已于 2026-11-08 归档到 `_Archive\Superseded_Chapter3_Planning_2026-11-08\`，不再作口径来源。各处已统一为 A 三题、B 三题、C 两题、合计 30 分钟。改动任一处时必须同步改其余处。
 
 ## 2. 四维度评分 rubric
 
@@ -29,7 +29,7 @@
 
 ## 3. 混合评分模型
 
-权威细节在 `Chapter_3_Methodology\Evaluation_Scoring_Procedure.md`。要点：
+权威细节在 `Chapter_3_Methodology\Chapter_3_Methodology.md` 第 3.5.3、3.7.2 与 3.9 节。`Evaluation_Scoring_Procedure.md` 已于 2026-11-08 归档到 `_Archive\Superseded_Chapter3_Planning_2026-11-08\`，只作历史证据。要点：
 
 - **Code Correction：** 全自动。提交的代码在隔离沙箱中跑隐藏测试用例，与 Online Python Tutor 类判题系统和 Bassner 的自动评分实践一致。
 - **Error Identification：** 规则匹配加研究者复核。

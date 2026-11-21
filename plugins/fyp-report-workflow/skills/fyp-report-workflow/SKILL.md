@@ -26,7 +26,7 @@ description: 用于 UTS BCS FYP 报告（D:\Reborn\01-study\fyp1）的写作与�
 
 ## 四道门禁：任一未通过，不许动笔
 
-**门禁 1 先读资料。** `D:\Reborn\03-knowledge\reference\fyp-writing-guide`、`D:\Reborn\01-study\University`、`Administration\Handbook_Template_Forms`（handbook 与 `FYP Template_V5.docx`）、`Overview` 总架构、本章现行文件。读摘要或凭记忆不算读完，读不到先解决读取问题。
+**门禁 1 先读资料。** 本目录 `fyp-writing-guide\`（handbook、briefing、Ch1 至 Ch3 讲义、Ch4 初步结果指引）、`D:\Reborn\01-study\university\y3s1`、`Administration\Handbook_Template_Forms`（handbook 与 `FYP Template_V5.docx`）、`Overview` 总架构、本章现行文件。读摘要或凭记忆不算读完，读不到先解决读取问题。
 
 **门禁 2 先确认。** 给用户一段确认，写清四件事：改哪章哪节；用哪个固定结构；改哪些文件、不动哪些；哪些决定资料没覆盖、必须由用户拍板。确认后才动笔。
 

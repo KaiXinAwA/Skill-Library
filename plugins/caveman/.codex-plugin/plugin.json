@@ -1,0 +1,13 @@
+{
+  "name": "caveman",
+  "version": "1.0.0",
+  "description": "少客套、保技术事实的原始人语输出模式",
+  "author": { "name": "KaiXinAwA" },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Caveman 极简输出",
+    "shortDescription": "少客套、保技术事实的原始人语输出模式",
+    "developerName": "KaiXinAwA",
+    "category": "Engineering"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "caveman-compress",
+  "version": "1.0.0",
+  "description": "把记忆/规则文件改写成短句，让每次会话读得更少",
+  "author": { "name": "KaiXinAwA" },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Caveman 记忆压缩",
+    "shortDescription": "把记忆/规则文件改写成短句，让每次会话读得更少",
+    "developerName": "KaiXinAwA",
+    "category": "Engineering"
+  }
+}

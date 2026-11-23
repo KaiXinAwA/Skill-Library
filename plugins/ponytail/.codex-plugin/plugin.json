@@ -1,0 +1,13 @@
+{
+  "name": "ponytail",
+  "version": "1.0.0",
+  "description": "写码前走 YAGNI 阶梯，只做能完整解决问题的最小改动",
+  "author": { "name": "KaiXinAwA" },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ponytail 最小改动",
+    "shortDescription": "写码前走 YAGNI 阶梯，只做能完整解决问题的最小改动",
+    "developerName": "KaiXinAwA",
+    "category": "Engineering"
+  }
+}

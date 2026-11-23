@@ -7,14 +7,18 @@
 
 ```
 Skill-Library/
-├── .agents/plugins/marketplace.json   # 市场清单（24 个插件）
+├── .agents/plugins/marketplace.json   # 市场清单（41 个插件）
 ├── agents/plugins/marketplace.json    # 同内容副本（双保险）
-├── plugins/                           # 24 个 Codex 插件（.codex-plugin + skills + LICENSE）
+├── plugins/                           # 41 个 Codex 插件（.codex-plugin + skills + LICENSE）
 │   ├── anti-defensive-writing/
 │   ├── paper-skill/
 │   ├── paperspine5/
 │   ├── agent-skills/
-│   ├── ...（共 24 个）
+│   ├── modern-web-guidance/
+│   ├── egm/
+│   ├── open-code-review/
+│   ├── skillspector/
+│   ├── ...（共 41 个）
 └── openwebui-export/                  # Open WebUI 导入包（6 个分类 zip + 说明）
     ├── A-学术写作.zip  (9 技能)
     ├── B-论文阅读.zip  (6 技能)

@@ -1,0 +1,16 @@
+{
+  "name": "open-code-review",
+  "version": "1.0.0",
+  "description": "Alibaba 开源的 AI 代码评审 agent：读 git diff，内置 NPE/线程安全/XSS/SQLi 规则，行级评论",
+  "author": { "name": "Alibaba (via open-code-review)" },
+  "homepage": "https://alibaba.github.io/open-code-review/",
+  "repository": "https://github.com/alibaba/open-code-review",
+  "license": "Apache-2.0",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Open Code Review",
+    "shortDescription": "行级 AI 代码评审，需要本机 ocr CLI",
+    "developerName": "Alibaba",
+    "category": "Developer Tools"
+  }
+}

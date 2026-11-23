@@ -1,0 +1,15 @@
+{
+  "name": "skillspector",
+  "version": "1.0.0",
+  "description": "装第三方 skill 前的安全检查：静态规则 + 可选 LLM，输出 0-100 风险分与 SAFE/CAUTION/DO NOT INSTALL",
+  "author": { "name": "NVIDIA" },
+  "repository": "https://github.com/NVIDIA/skillspector",
+  "license": "Apache-2.0",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SkillSpector 技能安检",
+    "shortDescription": "入库前扫描 skill 的漏洞与恶意模式",
+    "developerName": "NVIDIA",
+    "category": "Security"
+  }
+}

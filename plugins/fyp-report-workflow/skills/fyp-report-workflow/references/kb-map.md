@@ -50,12 +50,13 @@
 | `Reference\FYP_Final_Reference_and_Guidance_Catalogue.docx` | 文献目录，含类别与用途，查"这篇文献用来支撑哪一段" |
 | `Reference\Reference_Deep_Analysis.md` 与 `.docx` | 25 篇有效文献的逐篇拆解：APA 引用、研究问题、方法样本、带数字的发现、limitations 与 gaps、对本项目的用途、引用位置 |
 | `Reference\*.pdf` | 25 个 PDF，命名为 `Author (Year) - Title.pdf` |
+| `Reference\_PDF_Text\*.txt` | 现有 fitz/pypdf 抽取文本，引文 grep 与核验的主源；MinerU 只做表格/公式/双栏错乱时的补充对照，不替换本目录 |
 | `Chapter_3_Methodology\Chapter_3_Methodology.md` 第 3.5 节 | 三卷题量与时长、四维 rubric、评分分工的权威口径 |
 | `Chapter_3_Methodology\Chapter_3_引文核验与逐文分析.md` | 本章引用与逐文核验记录 |
 | `_Archive\Superseded_Chapter3_Planning_2026-11-08\` | 旧规划文件（`Evaluation_Scoring_Procedure`、`Integrated_Evaluation_Plan`），只作历史证据，不当口径 |
 | `Overview\Chapters1_2_Rationale_and_Top10_References.docx` | 第一二章的写作理由与十篇主文献分析 |
 | `Review_Comments\_Merged_Master_Review_Comments.docx` | 导师审阅意见合集，改稿前必读 |
-| `Chapter_1/2/3_*_revised.*` | 2026-11-13 生成的文风与长度修订版，与现行版并存；写新内容前先向用户确认以哪版为准 |
+| `_Archive\Old_Chapter_Versions\Plain_Draft_before_Tang_Interview_2026-11-23\` | 2026-11-13 那一轮 plain 旧稿；2026-11-23 三章原 revised 稿已提升为同名现行 `.md`，工作目录不再保留 `_revised` 后缀文件 |
 
 ## 4. 章节与资料的对应
 
@@ -63,7 +64,7 @@
 |---|---|
 | Chapter 1 | handbook 第 9.1.1 节；`Chapter 1_introduction (1).pdf`；现行 `Chapter_1_Introduction.md`；catalogue 中与问题背景相关的文献 |
 | Chapter 2 | handbook 第 9.1.2 节；`Chapter 2_Literature Review_MrDanielTan.pptx`；`Reference_Deep_Analysis`；现行 `Chapter_2_Literature_Review.md` |
-| Chapter 3 | handbook 第 9.1.3 节与第 8 章；`Chapter 3_Research Methodology_DrTanalachimi.pdf`；`C3_Methodology_Lecture_Notes_2026-11-02.md`；现行 `Chapter_3_Methodology.md`；`Chapter_3_引文核验与逐文分析.md` |
+| Chapter 3 | handbook 第 9.1.3 节与第 8 章；`Chapter 3_Research Methodology_DrTanalachimi.pdf`；现行 `Chapter_3_Methodology.md`；`Chapter_3_引文核验与逐文分析.md` |
 | Chapter 4（FYP1） | `Milestones Verification Form` 的 M8 与 M9；SDLC 课程材料；原型与测试记录 |
 | Chapter 5（FYP1） | `CSS3453_IT-PROJECT-MANAGEMENT` 的 `lectures`；`Administration\Gantt_Chart\FYP1_Gantt_Chart_Version5.xlsx`；`Limitations_Draft.md` |
 | Reference 与引用核查 | catalogue；`Reference_Deep_Analysis.md`；原始 PDF |

@@ -30,7 +30,7 @@
 1. `doubao-academic-polish` 管**内容与结构**——写什么、按什么顺序写。
 2. `anti-defensive-writing` / `-en` 管**叙事姿态**——不要写"本文旨在""综上所述"这类防御性套话。
 3. `academic-humanizer` 管**定稿语气**——英文读起来不像 AI 写的，但不承诺绕过 AI 检测率。
-4. `doubao-journal-format` 管**版式**——已定稿的 docx 套模板；`word` 管文档本身的结构操作（样式、页眉页脚、题注、图片）。转换脚本出的是工作稿，终稿版式仍走 `word` + `doubao-journal-format`。
+4. `doubao-journal-format` 管**版式**——已定稿的 docx 套模板；`word` 管文档本身的结构操作（样式、页眉页脚、题注、图片）。转换脚本已出 TNR 12 pt、1.5 倍行距的正文与标题；模板级自动编号、目录、题注与统一页边距留到定稿套模板，不在转换环节声称整本终稿版式完成。
 
 阅读与引用三件分工：
 
@@ -60,13 +60,13 @@
 python "D:\Reborn\01-study\fyp1\_Skills\fyp-report-workflow\scripts\md2docx.py" <源 md> <目标 docx>
 ```
 
-4. 需要终稿版式（Times New Roman 12 pt、1.5 倍行距、题注规范）时读 `word` 与 `doubao-journal-format`，不要用转换脚本的工作稿冒充终稿。
+4. 定稿套模板（自动编号、目录、题注、页边距）时读 `word` 与 `doubao-journal-format`；转换脚本只负责正文 TNR 12 pt、1.5 倍行距，不冒充整本终稿。
 
 ## 没有随附的 skill
 
 `verifier-hub` 只出现在平台的 skill 注册列表中，磁盘上没有对应目录，无法复制进本文件夹，因此不在清单内。
 
-它原本提供的能力是交付前对 docx、xlsx、pdf、pptx 做确定性校验。本项目只需要其中与报告有关的部分，已由 `scripts/check_report.py` 覆盖：固定小节、em dash、缩写、第一第二人称、段落与表格计数。xlsx、pdf、pptx 深度校验本项目用不到，需要时再单独处理。
+它原本提供的能力是交付前对 docx、xlsx、pdf、pptx 做确定性校验。本项目只需要其中与报告有关的部分，已由 `scripts/check_report.py` 覆盖：固定小节、em dash、缩写、第一第二人称、引文↔书目对应、同章小节交叉引用、docx 残留 markdown 标记、段落与表格计数；孤立书目、段数/词数差量、缩写首用为警告级。xlsx、pdf、pptx 深度校验本项目用不到，需要时再单独处理。
 
 ## 维护
 

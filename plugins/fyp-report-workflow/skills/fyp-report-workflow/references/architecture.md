@@ -72,7 +72,7 @@ Chapter 1 至 3 在 FYP1 写成，进入 FYP2 时更新而非重写。只有 Cha
 |---|---|---|
 | `Chapter_1_Introduction` | 第一章 | `Chapter_1_Introduction.md` 与 `.docx` |
 | `Chapter_2_Literature_Review` | 第二章 | `Chapter_2_Literature_Review.md` 与 `.docx` |
-| `Chapter_3_Methodology` | 方法与评估设计 | `Chapter_3_Methodology.md` / `.docx` / `_中文说明.md` / `.docx`；`Evaluation\`（评估卷、rubric、隐藏用例的唯一源） |
+| `Chapter_3_Methodology` | 方法与评估设计 | `Chapter_3_Methodology.md` / `.docx` / `_中文翻译.md` / `.docx` / `_中文说明.md` / `.docx` / `Chapter_3_引文核验与逐文分析.md` / `.docx`；`Evaluation\`（评估卷、rubric、隐藏用例的唯一源） |
 | `Chapter_4_Preliminary_Results` | FYP1 初步结果 | 骨架与证据清单已落盘（2026-11-16），结果待原型与试跑 |
 | `Chapter_5_Project_Planning` | 计划与 FYP2 素材 | `Limitations_Draft.md` |
 | `Reference` | 全部文献与文献文档 | 25 个 PDF；`_PDF_Text\`（同名纯文本，供 grep 原句）；Catalogue；`Reference_Deep_Analysis.md` 与 `.docx`；离题文献在 `_Archive\Excluded_References` |
@@ -92,7 +92,7 @@ Chapter 1 至 3 在 FYP1 写成，进入 FYP2 时更新而非重写。只有 Cha
 - 文献目录：`Reference\FYP_Final_Reference_and_Guidance_Catalogue.docx`。
 - 文献逐篇拆解：`Reference\Reference_Deep_Analysis.md` 与 `.docx`。
 - 评分权威口径：`Chapter_3_Methodology.md` 第 3.5 节；评估卷与 rubric 的源文件在 `Chapter_3_Methodology\Evaluation\`。
-- 每章四件套的命名与职责见 `SKILL.md`「目录与文件」一节。
+- 每章五件（正文、阅读稿、翻译、说明、引文核验）的命名与职责见 `SKILL.md`「目录与文件」一节。
 - 文献文档损坏时的回退：`_Archive\Backups`。
 
 ## 5. 归档纪律

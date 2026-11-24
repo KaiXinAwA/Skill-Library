@@ -45,9 +45,11 @@
 
 ## 5. 落地条件（未确认之前不得写成既定事实）
 
-- **课堂发布许可：** 需要向 CSS3563 的 lecturer 取得许可，在课程 Google Classroom 发布 Google Form，并在 lab 或 tutorial 时段邀请学生参与。这是发布表单的许可请求，不是签字或 consent form 流程。不要自行添加签字流程。
-- **目标人群适配：** CSS3563 学生与所选 Python 概念、bug 类型是否合适，等 lecturer 确认。
-- **共同指导：** 是否邀请 Dr. Michael Tang 担任 co-supervisor，等他本人回复，且受工作量与大学规定约束。
+2026-11-23 Tang 访谈后状态：
+
+- **课堂发布许可（已闭环）：** Dr. Michael Tang 同意把 Google Form 链接发到课程 Google Classroom。剩余为 lab 或 tutorial 场次安排；这是发布渠道许可，不是签字或 consent form 流程，不要自行添加签字流程。
+- **共同指导（已闭环）：** Dr. Michael Tang 同意担任 co-supervisor；独立专家人选尚未任命。
+- **目标人群适配（待确认）：** CSS3563 学生与所选 Python 概念、bug 类型是否合适，留待三份测试卷定稿时核对。
 - 可行性的口头表态不等于招募、伦理、数据收集或排课的正式批准。写作时必须区分"计划"与"已确认"。
 
 ## 6. 与分析方法的衔接

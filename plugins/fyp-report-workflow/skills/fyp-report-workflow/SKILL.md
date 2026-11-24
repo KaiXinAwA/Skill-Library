@@ -55,11 +55,12 @@ description: 用于 UTS BCS FYP 报告（D:\Reborn\01-study\fyp1）的写作与�
 - 不防御性示弱，不写"遗憾的是""效果有限"；论断不宽于证据。
 - 每条引用指得到 PDF 的具体位置，指不到的改或删。
 - 数字十以下写单词；表题注在上、图题注在下，按章编号。
+- 默认不用项目符号或编号列表，论证写成段落；步骤、判定条件、并列清单除外，细则见 writing-rules §6。
 - 篇幅底线：FYP1 至少 30 页，FYP2 至少 50 页。
 
 ## 目录与文件
 
-根目录 `D:\Reborn\01-study\fyp1`；文件夹用平实英文名，不加数字前缀。不设 Revised 式目录，每章一个文件夹，现行文件直接放里面；被取代的版本进 `_Archive`，不删。每章固定四件套，命名以章文件夹名为前缀：
+根目录 `D:\Reborn\01-study\fyp1`；文件夹用平实英文名，不加数字前缀。不设 Revised 式目录，每章一个文件夹，现行文件直接放里面；被取代的版本进 `_Archive`，不删。每章固定五件：正文 md、阅读稿 docx、中文翻译、中文说明、引文核验；命名以章文件夹名为前缀：
 
 | 文件 | 读者 | 职责 |
 |---|---|---|
@@ -67,8 +68,9 @@ description: 用于 UTS BCS FYP 报告（D:\Reborn\01-study\fyp1）的写作与�
 | `Chapter_X_Name.docx` | 用户与导师 | 由 md 生成的阅读稿 |
 | `Chapter_X_Name_中文翻译.docx` | 用户 | 正文逐段中文翻译，只译不解释 |
 | `Chapter_X_Name_中文说明.docx` | 用户 | 中英对照逐段理由，见「中文说明」一节 |
+| `Chapter_X_Name_引文核验与逐文分析.md/.docx` | AI 与作者 | 逐条断言三档判定、逐文分析、改动表与未挂文献清单 |
 
-章内专题（评估卷、rubric、隐藏用例、附录材料）在章内单独建子文件夹，同一套四份，前缀换成专题名。评估材料以 `Chapter_3_Methodology\Evaluation\` 为唯一源，`Communication\` 只留邮件与对外 overview。同一批内容不再单开翻译 md 或核验 docx。目录表与权威文件位置见 `references/architecture.md`。
+章内专题（评估卷、rubric、隐藏用例、附录材料）在章内单独建子文件夹，同一套四份，前缀换成专题名。评估材料以 `Chapter_3_Methodology\Evaluation\` 为唯一源，`Communication\` 只留邮件与对外 overview。引文核验件按章存放，不随专题另开。目录表与权威文件位置见 `references/architecture.md`。
 
 ## md 转 docx
 
@@ -76,7 +78,7 @@ description: 用于 UTS BCS FYP 报告（D:\Reborn\01-study\fyp1）的写作与�
 python scripts/md2docx.py <源 md 绝对路径> <目标 docx 绝对路径>
 ```
 
-中文文档加 `--cjk`，字体切微软雅黑并写 eastAsia，否则落到回退字体。输出是 Calibri 11 工作稿，不是终稿版式，别在转换环节声称排版已完成。
+中文文档加 `--cjk`，字体切微软雅黑并写 eastAsia。正文按 TNR 12 pt、1.5 倍行距；模板级章节自动编号、目录、题注与统一页边距仍在定稿套模板时处理，别在转换环节声称整本终稿版式已完成。
 
 ## 交付前验证
 
@@ -86,7 +88,7 @@ python scripts/md2docx.py <源 md 绝对路径> <目标 docx 绝对路径>
 python scripts/check_report.py <章 md> --docx <章 docx>
 ```
 
-它阻断固定小节缺失、em dash、缩写与人称，并报告标题数、表数、段落数；退出码 1 即不合格，改到通过。脚本覆盖不到的仍需回读核对：
+阻断项（退出码 1）：固定小节缺失、em dash、缩写形式、第一/二人称、文内引用在书目表缺条目、同章小节交叉引用指向不存在的标题、docx 残留 `**` 或反引号标记。警告项（不阻断）：书目孤立条目、docx↔md 段落/词数差量超阈值、缩写首用未展开。标题数、表数、段落数一并打印；退出码 1 即不合格，改到通过。脚本覆盖不到的仍需回读核对：
 
 - 表题注在上、图题注在下，正文提及每个表与图。
 - 引用指到 PDF 具体位置，方向与强度与正文一致；只靠 catalogue 或摘要的算未验证。
@@ -96,7 +98,7 @@ python scripts/check_report.py <章 md> --docx <章 docx>
 
 ## 中文说明：每次交付必带
 
-没有它，任务不算完成。命名 `<章文件名>_中文说明.docx`，与章节 md 同目录，保留 `.md` 源；生成用 `md2docx.py --cjk`。写给作者本人，平实中文，讲判断与取舍，不复述正文。第 2 项用中英对照写：英文段紧跟中文段，逐段说明这一段承担什么作用、为什么这么写、挂哪条引用，骨架照 `Chapter_1_Introduction\Chapter_1_Writing_Rationale_Bilingual.docx`。必备六项：
+没有它，任务不算完成。命名 `<章文件名>_中文说明.docx`，与章节 md 同目录，保留 `.md` 源；生成用 `md2docx.py --cjk`。写给作者本人，平实中文，讲判断与取舍，不复述正文。第 2 项用中英对照写：英文段紧跟中文段，逐段说明这一段承担什么作用、为什么这么写、挂哪条引用，骨架照 `_Archive\Superseded_Comm_2026-11-08\Chapters1_2_Rationale_and_Top10_References.docx`。必备六项：
 
 1. 改了哪几处，每处写改前原句、改后新句、为什么改。
 2. 这章写了什么，逐节说明为什么这样组织。
